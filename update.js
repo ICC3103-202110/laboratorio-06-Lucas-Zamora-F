@@ -122,7 +122,7 @@ function update(ltis, tvtc, form, to, model){
 
     if (ltis === 'No'){
         const NewleftUnit = to
-        const NewrightUnit = from
+        const NewrightUnit = form
         const NewrightValue = tvtc
 
         if (NewleftUnit === 'Celsius'){
